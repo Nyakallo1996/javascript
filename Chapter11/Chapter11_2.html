@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Changing the colour</h1>
+    <div>blue</div>
+    <div>red</div>
+    <div>yellow</div>
+    <div>black</div>
+    <div>green</div>
+    <script>
+        let divs = document.querySelectorAll("div");
+        for (let div of divs) {
+            div.addEventListener("click",changeColor);
+        }
+
+        function changeColor(e) {
+            e.target.style.backgroundColor = e.target.textContent;
+        }
+    </script>
+</body>
+</html>

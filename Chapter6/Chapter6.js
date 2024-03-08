@@ -1,6 +1,6 @@
 //Practice exercise 6.1
 
-/*function add (num1, num2) {
+function add (num1, num2) {
     return (num1 + num2);    //Create a function that takes two parameters, adds the parameters together and returns the result
 }
 
@@ -49,7 +49,7 @@ for (let i = 0; i < 10; i++) {
 
 //Practice exercise 6.5
 
-/*let numberString = "1000";//Create a variable value with let and assgn a string value of 1000
+let numberString = "1000";//Create a variable value with let and assgn a string value of 1000
 
 (function (){     //Create an IIFE function and within this function scope assign a new value to the variable of the same name
   let numberString = 200;
@@ -63,7 +63,7 @@ let result = (function () { //anonymous function with a let variable
     return car; //returning the variable
 })();
 console.log(result);//prinng the result in the console
-console.log(car);*/
+console.log(car);
 
 (function (car) {
     console.log(`the car i drive is a ${car}`);//invoking the function
